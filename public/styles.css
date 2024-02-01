@@ -1,0 +1,31 @@
+#container {
+    height: 400px;
+    width: 300px;
+    display: none;
+    flex-direction: column;
+    overflow-y: scroll;
+    position: absolute;
+    z-index: 3;
+    background: white;
+    gap: 5px;
+    text-transform: uppercase;
+  }
+  #container.open {
+    display: flex;
+  }
+  #optionMenu {
+    position: relative;
+  }
+  .map {
+    position: relative;
+  }
+  .search-bar {
+    padding: 5px;
+    margin: 2px;
+  }
+
+  #map {
+    height: 600px;
+    width: 800px;
+    background: blue;
+  }
